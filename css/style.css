@@ -350,6 +350,7 @@ h2 {
 	#main-menu ul, #main-menu ul li {
 		width: 100%;
 		float: none;
+		transform: rotate(-180deg);
 	}
 
 	#header-background {

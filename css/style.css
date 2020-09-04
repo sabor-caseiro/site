@@ -317,6 +317,19 @@ h2 {
 		margin: auto;
 		width: 90%;
 	}
+
+	#main-section {
+		padding: 30px;
+	}
+
+	.content-desc {
+		margin: 0;
+	}
+
+	#boxs, .content-desc, .boxes-align {
+		width: 100%;
+		margin: 0;
+	}
 }
 
 @media screen and (max-width: 722px) {
@@ -339,6 +352,11 @@ h2 {
 		float: none;
 	}
 
+	#header-background {
+		background-position: right;
+		background-size: contain;
+	}
+
 	.menu-btn {
 		display: block;
 	}
@@ -358,18 +376,10 @@ h2 {
 	}
 }
 
-@media screen and (max-width: 880px) {
-	#main-section {
-		padding: 30px;
-	}
-
-	.content-desc {
-		margin: 0;
-	}
-
-	#boxs, .content-desc, .boxes-align {
-		width: 100%;
-		margin: 0;
+@media screen and (max-width: 444px) {
+	#header-background {
+		background-position: right;
+		background-size: cover;
 	}
 }
 
